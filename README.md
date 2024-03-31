@@ -26,9 +26,6 @@ spring:
   cloud:
     config:
       server:
-#       native:
-#         search-locations: "classpath:/config"
-#         search-locations: "file:/filepath"
         git:
           uri: "https://github.com/jithin-sankargithub/Spring-Cloud-Config.git"
           default-label: master
@@ -48,7 +45,6 @@ Refreshing config using actuator path
 
 Refreshing config using Spring cloud Bus
 1) Run the command to run rabbit mq in our local to get started without installing rabbitmq directly 
-# latest RabbitMQ 3.13
 docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.13-management
 2) Add dependency for spring cloud bus in amqp in all microservices
 3) Make sure to expose busRefresh path in actuator endpoint url

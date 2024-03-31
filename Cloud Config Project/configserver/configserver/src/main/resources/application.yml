@@ -2,12 +2,16 @@ spring:
   application:
     name: "configserver"
   profiles:
-    active: native #for classpath searching of config files
+#   active: native #for classpath searching of config files
+    active: git
   cloud:
     config:
       server:
         native:
-          search-locations: "classpath:/config"
+#         search-locations: "classpath:/config"
+#         search-locations: "file:/filepath"
+          git:
+            uri: "https://github.com/jithin-sankargithub/Spring-Cloud-Config.git"
 
 
 server:

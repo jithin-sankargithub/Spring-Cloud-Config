@@ -13,3 +13,9 @@ m
 =loans/src/main/java/com/eazybytes/loans/LoansApplication.java,6\9\690667b636c2559bbbe48a5ba68f69674cf59ae3
 Ž
 ^configserver/configserver/src/main/java/com/eazbytes/configserver/ConfigServerApplication.java,e\d\ed86d73f918d790ed30e763b0f2d31beb8dd518b
+}
+Maccounts/src/main/java/com/eazybytes/accounts/dto/AccountsContactInfoDto.java,2\1\219ef28976e6f8d70324c4f3b79f9d9ffa4d09fc
+v
+Faccounts/src/main/java/com/eazybytes/accounts/AccountsApplication.java,d\5\d5b9cc1ec640ecc7af8d8993416ef3e929776b20
+m
+=cards/src/main/java/com/eazybytes/cards/CardsApplication.java,4\3\43e3e52ee44935c281ca637c174006872dfc6bea

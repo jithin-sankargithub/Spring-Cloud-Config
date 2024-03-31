@@ -1,3 +1,4 @@
+
 server:
   port: 8080
 spring:
@@ -14,14 +15,24 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
-  config:
-    import:
-      - "application_qa.yml"
-      - "application_prod.yml"
-  profiles:
-    active:
-      - "qa"
 
+  application:
+    name: accounts
+  profiles:
+    active: "prod"
+  config:
+    import: "configserver:http://localhost:8071/"
+  rabbitmq:
+    host: "localhost"
+    port: 5672
+    username: "guest"
+    password: "guest"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 
 build:
   version: "3.0"

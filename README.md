@@ -44,7 +44,7 @@ Refreshing config using actuator path
 4) Trigger post method of refresh from actuator endpoint - localhost:8080/actuator/refresh
 
 Refreshing config using Spring cloud Bus
-1) Run the command to run rabbit mq in our local to get started without installing rabbitmq directly 
+1) Run the command to run rabbit mq in our local to get started without installing rabbitmq directly -- 
 docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.13-management
 2) Add dependency for spring cloud bus in amqp in all microservices
 3) Make sure to expose busRefresh path in actuator endpoint url

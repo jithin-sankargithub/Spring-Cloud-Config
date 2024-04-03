@@ -19,8 +19,6 @@ v
 Faccounts/src/main/java/com/eazybytes/accounts/AccountsApplication.java,d\5\d5b9cc1ec640ecc7af8d8993416ef3e929776b20
 m
 =cards/src/main/java/com/eazybytes/cards/CardsApplication.java,4\3\43e3e52ee44935c281ca637c174006872dfc6bea
-K
-accounts/docker-compose.yml,6\9\69bdfae916d529f468930246e21b9817a051520e
 Y
 )docker-compose/default/docker-compose.yml,5\4\54d121a4174bc60a2b7478b442c704b13e8ad819
 X
